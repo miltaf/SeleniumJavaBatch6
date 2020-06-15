@@ -1,0 +1,144 @@
+[1589739220.630][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 7397
+[1589739220.630][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589739220.810][INFO]: [c86cd5200ee698d188c54e9b42975713] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589739220.811][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589739220.811][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589739220.812][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/0d/263tkdf562gg6s69zmywrwhh0000gn/T/.com.google.Chrome.J2siln/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/0d/263tkdf562gg6s69zmywrwhh0000gn/T/.com.google.Chrome.gGVjkC data:,
+[1589739221.494][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1589739221.522][INFO]: [c86cd5200ee698d188c54e9b42975713] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "/var/folders/0d/263tkdf562gg6s69zmywrwhh0000gn/T/.com.google.Chrome.gGVjkC"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49628"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c86cd5200ee698d188c54e9b42975713"
+}
+[1589739221.564][INFO]: [c86cd5200ee698d188c54e9b42975713] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1589739221.564][INFO]: [c86cd5200ee698d188c54e9b42975713] RESPONSE SetTimeouts
+[1589739221.568][INFO]: [c86cd5200ee698d188c54e9b42975713] COMMAND Navigate {
+   "url": "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"
+}
+[1589739221.568][INFO]: Waiting for pending navigations...
+[1589739221.569][INFO]: Done waiting for pending navigations. Status: ok
+[1589739221.908][INFO]: Waiting for pending navigations...
+[1589739222.012][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.113][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.214][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.315][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.517][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.679][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589739222.789][INFO]: Done waiting for pending navigations. Status: ok
+[1589739222.789][INFO]: [c86cd5200ee698d188c54e9b42975713] RESPONSE Navigate
+[1589739222.795][INFO]: [c86cd5200ee698d188c54e9b42975713] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsernam"
+}
+[1589739222.795][INFO]: Waiting for pending navigations...
+[1589739222.795][INFO]: Done waiting for pending navigations. Status: ok
+[1589739237.831][INFO]: Waiting for pending navigations...
+[1589739237.831][INFO]: Done waiting for pending navigations. Status: ok
+[1589739237.831][INFO]: [c86cd5200ee698d188c54e9b42975713] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsernam"}
+  (Session info: chrome=81.0.4044.138)

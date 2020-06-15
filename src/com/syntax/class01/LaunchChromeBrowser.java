@@ -17,7 +17,7 @@ public class LaunchChromeBrowser {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.amazon.com");
 		String verifyTitle="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";// ensures that I am in the right page
-		String verify=chorme.getTitle();
+		String verify=driver.getTitle();
 		if (verify.equalsIgnoreCase(verifyTitle)) {
 			System.out.println(verifyTitle);
 		}else {

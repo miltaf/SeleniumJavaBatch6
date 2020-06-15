@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.syntax.utils.CommonMethods;
 
+
 public class FacebookSignUp extends CommonMethods{
 /*
  * Using functions ONLY sign up to Facebook account
